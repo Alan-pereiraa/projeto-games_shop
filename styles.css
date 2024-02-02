@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+section h2,
+section h3,
+.contact-methodos form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+header {
+    background-color: #182C61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+header .container h1 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color:#ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin:  0px auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Sobre */
+
+section{
+    padding: 24px 0;
+    color:#182C61;
+}
+
+.brand-list img {
+    height: 24px;
+}
+
+.brand-list li {
+    display: inline;
+    margin-left: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section div h2 {
+    font-family: 'bungee', cursive;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+section div p {
+    margin-bottom: 8px;
+}
+
+/* Contato */
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methodos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-methodos form input,
+.contact-methodos form textarea,
+.contact-methodos form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.contact-methodos form textarea {
+    resize: none;
+}
+
+.section h3 {
+    margin-bottom: 16px;
+}
+
+.contact-methodos form button {
+    background-color: #182C61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-methodos form textarea {
+    height: 180px;
+}
+
+.contact-methodos form button:hover {
+    background-color:blue;
+}
+
+.contact-methodos form input:focus,
+.contact-methodos form textarea:focus {   
+    outline-color:#182C61;
+}
+
+footer {
+    background-color:#182C61;
+    color:#ecf0f1;
+    padding: 16px 0;
+}
